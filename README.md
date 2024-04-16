@@ -1,7 +1,7 @@
-Plant-Sitter Design Project - README
+Design Project - README
 ===
 
-# APP_NAME_HERE
+# Plant-Sitter
 
 ## Table of Contents
 
