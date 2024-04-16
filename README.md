@@ -73,11 +73,11 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 
 ## Wireframes
 
-<img src="https://imgur.com/a/uHjT1BJ" width=600>
+<img src="https://i.imgur.com/TcgGgiw.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 Below are wireframe options for the test, including OPTIONAL: compass screen
-<img src="https://imgur.com/a/8ygu0SR" width=600>
+<img src="https://i.imgur.com/T7ZN61t.jpg" width=600>
 ### [BONUS] Interactive Prototype
 
 ## Schema 
