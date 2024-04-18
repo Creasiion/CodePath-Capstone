@@ -78,6 +78,12 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 ### [BONUS] Digital Wireframes & Mockups
 Below are wireframe options for the test, including OPTIONAL: compass screen
 <img src="https://i.imgur.com/T7ZN61t.jpg" width=600>
+
+## Week 8 Sprint
+Goals:
+- [ ] Have all view controllers created with necessary components (i.e. table view) added
+- [ ] Design and add necessary graphics/color theme
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
