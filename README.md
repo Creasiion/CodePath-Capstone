@@ -93,6 +93,19 @@ New Goals:
 - [ ] Have scroll function done for Encyclopedia.
 - [ ] Add images!
 
+## Week 8 Sprint
+Goals:
+- [x] Have all view controllers created with necessary components (i.e. table view) added
+- [ ] Design and add necessary graphics/color theme next (Image will be from API)
+[Progress]https://www.loom.com/share/5559ba74cb054f069a92a951a7288238
+NOTE: All view controllers necessary have been created with necessary components.
+New goals:
+- [ ] Fix error when trying to switch view controllers
+- [ ] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
+- [ ] Have working calendar AND task to do.
+  - [ ] If there's time, have color options for task text for different plants user has
+- [ ] Have scroll function done for Encyclopedia.
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
