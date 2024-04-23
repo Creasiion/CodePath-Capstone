@@ -96,7 +96,7 @@
         <!--Calendar-->
         <scene sceneID="I96-Wd-6he">
             <objects>
-                <viewController id="35L-8e-4Rf" customClass="CalendarViewController" customModule="Plant_Sitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="35L-8e-4Rf" customClass="CalendarViewController" customModule="ios101_project7_task" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n8K-nv-Vum">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
                                         <rect key="frame" x="0.0" y="550" width="393" height="302"/>
                                         <inset key="separatorInset" minX="48" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="66" id="j0H-UO-0EZ" customClass="TaskCell" customModule="Plant_Sitter" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="66" id="j0H-UO-0EZ" customClass="TaskCell" customModule="ios101_project7_task" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="55.333332061767578" width="353" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j0H-UO-0EZ" id="v85-7E-s8Z">
@@ -199,8 +199,7 @@
                     <navigationItem key="navigationItem" title="Calendar" id="PrF-2o-NME">
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="1lu-f4-BSd">
                             <connections>
-                                <action selector="didTapNewTaskButton:" destination="35L-8e-4Rf" id="pp4-JT-mgo"/>
-                                <segue destination="b8a-bN-PCy" kind="presentation" identifier="ComposeSegue" id="d3p-TH-RFR"/>
+                                <segue destination="b8a-bN-PCy" kind="presentation" id="d3p-TH-RFR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -235,7 +234,7 @@
         <!--New Task-->
         <scene sceneID="X6W-vp-Prk">
             <objects>
-                <viewController id="0z1-uo-s1z" customClass="TaskComposeViewController" customModule="Plant_Sitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0z1-uo-s1z" customClass="TaskComposeViewController" customModule="ios101_project7_task" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZPf-dp-Crd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,7 +321,7 @@
         <!--Plant Feed Scene-->
         <scene sceneID="UTU-Np-3H0">
             <objects>
-                <viewController title="Plant Feed Scene" id="LCi-92-0fq" customClass="ViewController" customModule="Plant_Sitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Plant Feed Scene" id="LCi-92-0fq" customClass="ViewController" customModule="ios101_project6_tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9qb-Fc-HN3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -332,7 +331,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="152" id="Mgj-ge-PfT" customClass="PostCell" customModule="Plant_Sitter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="152" id="Mgj-ge-PfT" customClass="PostCell" customModule="ios101_project6_tumblr" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mgj-ge-PfT" id="Hdh-h9-eTZ">
@@ -400,7 +399,7 @@
         <!--Plant Details Scene-->
         <scene sceneID="j5G-cD-LA5">
             <objects>
-                <viewController title="Plant Details Scene" id="UXN-Ma-aQU" customClass="DetailViewController" customModule="Plant_Sitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Plant Details Scene" id="UXN-Ma-aQU" customClass="DetailViewController" customModule="ios101_project6_tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qnK-hd-5Rd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,7 +474,6 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Zrr-ec-EBC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pDP-I9-sgz">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
