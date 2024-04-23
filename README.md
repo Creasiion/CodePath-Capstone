@@ -88,6 +88,7 @@ Goals from Week 8:
 - [ ] Have scroll function done for Encyclopedia.
 [Progress]https://www.loom.com/share/c30b491a7b29478f8585f1361dc5326c
 *FEATURE IMPLEMENTED!* Users can now add to their to-do list by calendar date, and can clear them as well!
+
 New Goals:
 - [ ] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
 - [ ] Have scroll function done for Encyclopedia.
