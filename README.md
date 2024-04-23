@@ -79,7 +79,7 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 Below are wireframe options for the test, including OPTIONAL: compass screen
 <img src="https://i.imgur.com/T7ZN61t.jpg" width=600>
 
-## Week 8 Sprint
+## Week 9 Sprint
 Goals from Week 8:
 - [x] Fix error when trying to switch view controllers
 - [ ] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
