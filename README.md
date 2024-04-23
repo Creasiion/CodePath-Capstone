@@ -78,6 +78,21 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 ### [BONUS] Digital Wireframes & Mockups
 Below are wireframe options for the test, including OPTIONAL: compass screen
 <img src="https://i.imgur.com/T7ZN61t.jpg" width=600>
+
+## Week 8 Sprint
+Goals from Week 8:
+- [x] Fix error when trying to switch view controllers
+- [ ] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
+- [x] Have working calendar AND task to do.
+- [ ] If there's time, have color options for task text for different plants user has
+- [ ] Have scroll function done for Encyclopedia.
+[Progress]https://www.loom.com/share/c30b491a7b29478f8585f1361dc5326c
+*FEATURE IMPLEMENTED!* Users can now add to their to-do list by calendar date, and can clear them as well!
+New Goals:
+- [ ] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
+- [ ] Have scroll function done for Encyclopedia.
+- [ ] Add images!
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
