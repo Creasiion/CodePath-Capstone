@@ -39,6 +39,8 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 
 * The user can get advice from plant-sitter bot about issues involving their plant
 * The user can watch introductory videos with tips such as repotting on how to care for their plant
+* With an automatedrobot/machine it could connect to the app and do tasks for you
+* Have a shop to buy seeds from ("Garden")
 
 ### 2. Screen Archetypes
 
