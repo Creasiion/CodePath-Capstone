@@ -13,6 +13,11 @@
 		8FC80FBB2BD0D15000F6DDB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8FC80FBA2BD0D15000F6DDB6 /* Base */; };
 		8FC80FBD2BD0D15100F6DDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC80FBC2BD0D15100F6DDB6 /* Assets.xcassets */; };
 		8FC80FC02BD0D15100F6DDB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8FC80FBF2BD0D15100F6DDB6 /* Base */; };
+		8FC8F47A2BE0B1980099411E /* PlantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8F4792BE0B1980099411E /* PlantInfo.swift */; };
+		8FC8F47C2BE0BC000099411E /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8F47B2BE0BC000099411E /* PlantCell.swift */; };
+		8FC8F4802BE0C1360099411E /* PlantEncyclopediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8F47F2BE0C1360099411E /* PlantEncyclopediaViewController.swift */; };
+		8FC8F4842BE0C7C60099411E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8F4832BE0C7C60099411E /* DetailViewController.swift */; };
+		8FC8F48C2BE0C8FD0099411E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 8FC8F48B2BE0C8FD0099411E /* Nuke */; };
 		8FCB51752BD7843600ECACF6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB51742BD7843600ECACF6 /* CalendarViewController.swift */; };
 		8FCB51772BD7847000ECACF6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB51762BD7847000ECACF6 /* Task.swift */; };
 		8FCB51792BD784EF00ECACF6 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB51782BD784EF00ECACF6 /* TaskCell.swift */; };
@@ -28,6 +33,10 @@
 		8FC80FBC2BD0D15100F6DDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC80FBF2BD0D15100F6DDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC80FC12BD0D15100F6DDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC8F4792BE0B1980099411E /* PlantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInfo.swift; sourceTree = "<group>"; };
+		8FC8F47B2BE0BC000099411E /* PlantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
+		8FC8F47F2BE0C1360099411E /* PlantEncyclopediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantEncyclopediaViewController.swift; sourceTree = "<group>"; };
+		8FC8F4832BE0C7C60099411E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8FCB51742BD7843600ECACF6 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		8FCB51762BD7847000ECACF6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
 		8FCB51782BD784EF00ECACF6 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = SOURCE_ROOT; };
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC8F48C2BE0C8FD0099411E /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +60,7 @@
 			children = (
 				8FC80FB22BD0D15000F6DDB6 /* Plant-Sitter */,
 				8FC80FB12BD0D15000F6DDB6 /* Products */,
+				8FC8F4812BE0C7210099411E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +75,10 @@
 		8FC80FB22BD0D15000F6DDB6 /* Plant-Sitter */ = {
 			isa = PBXGroup;
 			children = (
+				8FC8F47F2BE0C1360099411E /* PlantEncyclopediaViewController.swift */,
+				8FC8F47B2BE0BC000099411E /* PlantCell.swift */,
+				8FC8F4832BE0C7C60099411E /* DetailViewController.swift */,
+				8FC8F4792BE0B1980099411E /* PlantInfo.swift */,
 				8FCB517A2BD7853D00ECACF6 /* TaskComposeViewController.swift */,
 				8FCB51782BD784EF00ECACF6 /* TaskCell.swift */,
 				8FCB51762BD7847000ECACF6 /* Task.swift */,
@@ -77,6 +92,13 @@
 				8FC80FC12BD0D15100F6DDB6 /* Info.plist */,
 			);
 			path = "Plant-Sitter";
+			sourceTree = "<group>";
+		};
+		8FC8F4812BE0C7210099411E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +117,9 @@
 			dependencies = (
 			);
 			name = "Plant-Sitter";
+			packageProductDependencies = (
+				8FC8F48B2BE0C8FD0099411E /* Nuke */,
+			);
 			productName = "Plant-Sitter";
 			productReference = 8FC80FB02BD0D15000F6DDB6 /* Plant-Sitter.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 8FC80FA72BD0D15000F6DDB6;
+			packageReferences = (
+				8FC8F48A2BE0C8FD0099411E /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 8FC80FB12BD0D15000F6DDB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,11 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC8F4842BE0C7C60099411E /* DetailViewController.swift in Sources */,
+				8FC8F4802BE0C1360099411E /* PlantEncyclopediaViewController.swift in Sources */,
 				8FCB51772BD7847000ECACF6 /* Task.swift in Sources */,
 				8FCB51752BD7843600ECACF6 /* CalendarViewController.swift in Sources */,
 				8FC80FB82BD0D15000F6DDB6 /* ViewController.swift in Sources */,
 				8FCB517B2BD7853D00ECACF6 /* TaskComposeViewController.swift in Sources */,
 				8FC80FB42BD0D15000F6DDB6 /* AppDelegate.swift in Sources */,
+				8FC8F47A2BE0B1980099411E /* PlantInfo.swift in Sources */,
+				8FC8F47C2BE0BC000099411E /* PlantCell.swift in Sources */,
 				8FCB51792BD784EF00ECACF6 /* TaskCell.swift in Sources */,
 				8FC80FB62BD0D15000F6DDB6 /* SceneDelegate.swift in Sources */,
 			);
@@ -379,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8FC8F48A2BE0C8FD0099411E /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8FC8F48B2BE0C8FD0099411E /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FC8F48A2BE0C8FD0099411E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8FC80FA82BD0D15000F6DDB6 /* Project object */;
 }

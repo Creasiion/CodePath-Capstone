@@ -121,20 +121,13 @@ class CalendarViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // 1.
-        if segue.identifier == "ComposeSegue" {
-            // 2.
-            // i.
+        if segue.identifier == "ComposeTask" {
             if let composeNavController = segue.destination as? UINavigationController,
-                // ii.
                let composeViewController = composeNavController.topViewController as? TaskComposeViewController {
 
-                // 3.
-                composeViewController.taskToEdit = sender as? Task
-
-                // 4.
-                // i.
-                // ii.
+                // Pass the task to edit through the segue
+                composeViewController.taskToEdit = sender as? Task  // Ensure 'sender' is a valid Task instance
+                
                 composeViewController.onComposeTask = { [weak self] task in
                     task.save()
                     self?.refreshTasks()
@@ -142,6 +135,7 @@ class CalendarViewController: UIViewController {
             }
         }
     }
+
 
     // MARK: - Helper Functions
 
