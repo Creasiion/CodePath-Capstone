@@ -79,6 +79,20 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 Below are wireframe options for the test, including OPTIONAL: compass screen
 <img src="https://i.imgur.com/T7ZN61t.jpg" width=600>
 
+## Week 10 Sprint
+Goals from Week 9:
+- [x] Add in what variables we want from Perenual API (Doc here: https://perenual.com/docs/api)
+- [x] Have scroll function done for Encyclopedia.
+- [x] Add images!
+[Progress]https://www.loom.com/share/300cb583d7dd45a8a1a97412fe9da515?sid=91d67843-a249-429a-8604-114dc830787d
+*FEATURE IMPLEMENTED* Users can now see an encyclopedia of interesting plants, including their name, cycle, watering, sunlight, and general description!
+New Goals:
+- [ ] Adjust text box in plant details
+- [ ] Add a 'bookmark' feature for interesting plants
+- [ ] Add a 'My baby' feature for plants user has; use a plant as homepage
+- [ ] Allow ability to delete tasks (fix delete error)
+- [ ] Color!
+
 ## Week 9 Sprint
 Goals from Week 8:
 - [x] Fix error when trying to switch view controllers
