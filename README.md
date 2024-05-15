@@ -19,7 +19,7 @@ Allow plant owners to keep track of when to feed their plant, if they need to re
 ### App Evaluation
 
 - **Category:** Lifestyle 
-- **Mobile:** Mobile is important for logging plant updates and health statistics. Compass/location will be used to recommend best plant to have and where in your household.
+- **Mobile:** Important for logging plant updates and health statistics. Compass/location will be used to recommend best plant to have and where in your household.
 - **Story:** Creates an informed guide for beginner plant owners or plant owners transitioning to take care of it the best way they can, while also adjusting to their schedule to make a plant experience feel less like a "chore", while simultaneously educating. Allows experienced plant users with busy schedules to relax and plan ahead for their plants.
 - **Market:** Any person who wants to have a house plant, or is an experienced but busy plant owner can use this app. Could be further implemented for crops such as berries and vegetables.
 - **Habit:** Experienced plant owners are using it at least weekly to cross of tasks involving their plant. Inexperienced plant owners can use it daily for advice and more information on their plant, making it a bridgeway for those inexperienced to learn more with less failure and more support. They frequency will truly depend on what plant they have. 
